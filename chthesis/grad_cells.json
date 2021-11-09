@@ -1,0 +1,893 @@
+{
+    "name": "grad_cells",
+    "components": [
+        {
+            "name": "pb1",
+            "id": "pb1",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "pb2",
+            "id": "pb2",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "p1",
+            "id": "p1",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "n1",
+            "id": "n1",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "height": 100.0
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "NODE",
+            "x-span": 0,
+            "y-span": 0
+        },
+        {
+            "name": "g",
+            "id": "g",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfBends": 10,
+                "bendSpacing": 100,
+                "bendLength": 500,
+                "channelWidth": 100,
+                "spacing": 2000.0,
+                "in": 1,
+                "out": 4,
+                "componentSpacing": 1000.0,
+                "height": 250.0,
+                "rotation": 0.0
+            },
+            "ports": [
+                {
+                    "x": 3350,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 350,
+                    "y": 17700,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2350,
+                    "y": 17700,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4350,
+                    "y": 17700,
+                    "label": "4",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 6350,
+                    "y": 17700,
+                    "label": "5",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "GRADIENT GENERATOR",
+            "x-span": 6700,
+            "y-span": 17700
+        },
+        {
+            "name": "m1",
+            "id": "m1",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "spacing": 500.0,
+                "width": 400,
+                "length": 100.0,
+                "stageLength": 1000,
+                "flowChannelWidth": 100,
+                "controlChannelWidth": 50,
+                "in": 1,
+                "out": 4,
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "height": 250.0
+            },
+            "ports": [
+                {
+                    "x": 1325,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2450,
+                    "y": 3200,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1700,
+                    "y": 3200,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 950,
+                    "y": 3200,
+                    "label": "4",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 200,
+                    "y": 3200,
+                    "label": "5",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 175,
+                    "y": 1350,
+                    "label": "6",
+                    "layer": "CONTROL"
+                },
+                {
+                    "x": 2475,
+                    "y": 1850,
+                    "label": "7",
+                    "layer": "CONTROL"
+                },
+                {
+                    "x": 175,
+                    "y": 2450,
+                    "label": "8",
+                    "layer": "CONTROL"
+                },
+                {
+                    "x": 2475,
+                    "y": 2950,
+                    "label": "9",
+                    "layer": "CONTROL"
+                }
+            ],
+            "entity": "MUX",
+            "x-span": 2650,
+            "y-span": 3200
+        },
+        {
+            "name": "t1",
+            "id": "t1",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "spacing": 500.0,
+                "flowChannelWidth": 100,
+                "stageLength": 500,
+                "in": 4,
+                "out": 1,
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "width": 2460.0,
+                "height": 250.0
+            },
+            "ports": [
+                {
+                    "x": 1175,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2300,
+                    "y": 1700,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1550,
+                    "y": 1700,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 800,
+                    "y": 1700,
+                    "label": "4",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 50,
+                    "y": 1700,
+                    "label": "5",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "TREE",
+            "x-span": 2350,
+            "y-span": 1700
+        },
+        {
+            "name": "ctb_1",
+            "id": "ctb_1",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 20,
+                "chamberWidth": 100,
+                "chamberLength": 100,
+                "chamberSpacing": 30,
+                "feedingChannelWidth": 100,
+                "componentSpacing": 1000.0,
+                "rotation": 270.0,
+                "height": 250.0
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 150,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1330,
+                    "y": 150,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "LONG CELL TRAP",
+            "x-span": 1330,
+            "y-span": 300
+        },
+        {
+            "name": "ctb_2",
+            "id": "ctb_2",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 20,
+                "chamberWidth": 100,
+                "chamberLength": 100,
+                "chamberSpacing": 30,
+                "feedingChannelWidth": 100,
+                "componentSpacing": 1000.0,
+                "rotation": 270.0,
+                "height": 250.0
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 150,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1330,
+                    "y": 150,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "LONG CELL TRAP",
+            "x-span": 1330,
+            "y-span": 300
+        },
+        {
+            "name": "ctb_3",
+            "id": "ctb_3",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 20,
+                "chamberWidth": 100,
+                "chamberLength": 100,
+                "chamberSpacing": 30,
+                "feedingChannelWidth": 100,
+                "componentSpacing": 1000.0,
+                "rotation": 270.0,
+                "height": 250.0
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 150,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1330,
+                    "y": 150,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "LONG CELL TRAP",
+            "x-span": 1330,
+            "y-span": 300
+        },
+        {
+            "name": "ctb_4",
+            "id": "ctb_4",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 20,
+                "chamberWidth": 100,
+                "chamberLength": 100,
+                "chamberSpacing": 30,
+                "feedingChannelWidth": 100,
+                "componentSpacing": 1000.0,
+                "rotation": 270.0,
+                "height": 250.0
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 150,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1330,
+                    "y": 150,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "LONG CELL TRAP",
+            "x-span": 1330,
+            "y-span": 300
+        },
+        {
+            "name": "cpb1_1",
+            "id": "cpb1_1",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "cpb1_2",
+            "id": "cpb1_2",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "cpb2_1",
+            "id": "cpb2_1",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "cpb2_2",
+            "id": "cpb2_2",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 1000.0,
+                "height": 1100.0
+            },
+            "ports": [
+                {
+                    "x": 100,
+                    "y": 100,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "entity": "PORT",
+            "x-span": 200,
+            "y-span": 200
+        }
+    ],
+    "connections": [
+        {
+            "sinks": [
+                {
+                    "component": "n1",
+                    "port": "1"
+                }
+            ],
+            "name": "c1",
+            "id": "c1",
+            "source": {
+                "component": "pb1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "n1",
+                    "port": "1"
+                }
+            ],
+            "name": "c2",
+            "id": "c2",
+            "source": {
+                "component": "pb2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "g",
+                    "port": "1"
+                }
+            ],
+            "name": "c3",
+            "id": "c3",
+            "source": {
+                "component": "n1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "m1",
+                    "port": "1"
+                }
+            ],
+            "name": "c4",
+            "id": "c4",
+            "source": {
+                "component": "g",
+                "port": "2"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ctb_1",
+                    "port": "1"
+                }
+            ],
+            "name": "c5",
+            "id": "c5",
+            "source": {
+                "component": "m1",
+                "port": "2"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ctb_2",
+                    "port": "1"
+                }
+            ],
+            "name": "c6",
+            "id": "c6",
+            "source": {
+                "component": "m1",
+                "port": "3"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ctb_3",
+                    "port": "1"
+                }
+            ],
+            "name": "c7",
+            "id": "c7",
+            "source": {
+                "component": "m1",
+                "port": "4"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ctb_4",
+                    "port": "1"
+                }
+            ],
+            "name": "c8",
+            "id": "c8",
+            "source": {
+                "component": "m1",
+                "port": "5"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "t1",
+                    "port": "1"
+                }
+            ],
+            "name": "c9",
+            "id": "c9",
+            "source": {
+                "component": "ctb_1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "t1",
+                    "port": "2"
+                }
+            ],
+            "name": "c10",
+            "id": "c10",
+            "source": {
+                "component": "ctb_2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "t1",
+                    "port": "3"
+                }
+            ],
+            "name": "c11",
+            "id": "c11",
+            "source": {
+                "component": "ctb_3",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "t1",
+                    "port": "4"
+                }
+            ],
+            "name": "c12",
+            "id": "c12",
+            "source": {
+                "component": "ctb_4",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "p1",
+                    "port": "1"
+                }
+            ],
+            "name": "c13",
+            "id": "c13",
+            "source": {
+                "component": "t1",
+                "port": "5"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "m1",
+                    "port": "7"
+                }
+            ],
+            "name": "cc1",
+            "id": "cc1",
+            "source": {
+                "component": "cpb1_1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 50,
+                "connectionSpacing": 1000
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "m1",
+                    "port": "9"
+                }
+            ],
+            "name": "cc2",
+            "id": "cc2",
+            "source": {
+                "component": "cpb1_2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 50,
+                "connectionSpacing": 1000
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "m1",
+                    "port": "6"
+                }
+            ],
+            "name": "cc3",
+            "id": "cc3",
+            "source": {
+                "component": "cpb2_1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 50,
+                "connectionSpacing": 1000
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "m1",
+                    "port": "8"
+                }
+            ],
+            "name": "cc4",
+            "id": "cc4",
+            "source": {
+                "component": "cpb2_2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 50,
+                "connectionSpacing": 1000
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        }
+    ],
+    "params": {
+        "x-span": 76200,
+        "y-span": 76200
+    },
+    "layers": [
+        {
+            "name": "FLOW_0",
+            "id": "0",
+            "type": "FLOW",
+            "params": {},
+            "group": "0"
+        },
+        {
+            "name": "FLOW_0",
+            "id": "1",
+            "type": "CONTROL",
+            "params": {},
+            "group": "0"
+        }
+    ],
+    "features": [],
+    "version": "1.2",
+    "valveMap": {},
+    "valveTypeMap": {}
+}

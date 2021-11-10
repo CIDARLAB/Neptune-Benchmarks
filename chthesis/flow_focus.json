@@ -42,7 +42,7 @@
             },
             "ports": [
                 {
-                    "x": 1267,
+                    "x": 1266,
                     "y": 585,
                     "label": "1",
                     "layer": "FLOW"
@@ -71,8 +71,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n2",
@@ -93,8 +93,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         }
     ],
     "connections": [

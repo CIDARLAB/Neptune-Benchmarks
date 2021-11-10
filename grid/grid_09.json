@@ -20,61 +20,61 @@
             },
             "ports": [
                 {
-                    "x": 6238,
+                    "x": 6237,
                     "y": 0,
                     "label": "1",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 9538,
+                    "x": 9537,
                     "y": 20400,
                     "label": "2",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 8713,
+                    "x": 8712,
                     "y": 20400,
                     "label": "3",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 7888,
+                    "x": 7887,
                     "y": 20400,
                     "label": "4",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 7063,
+                    "x": 7062,
                     "y": 20400,
                     "label": "5",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 6238,
+                    "x": 6237,
                     "y": 20400,
                     "label": "6",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 5413,
+                    "x": 5412,
                     "y": 20400,
                     "label": "7",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 4588,
+                    "x": 4587,
                     "y": 20400,
                     "label": "8",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 3763,
+                    "x": 3762,
                     "y": 20400,
                     "label": "9",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 2938,
+                    "x": 2937,
                     "y": 20400,
                     "label": "10",
                     "layer": "FLOW"
@@ -93,8 +93,8 @@
             "params": {
                 "spacing": 1200.0,
                 "flowChannelWidth": 100,
-                "in": 9,
-                "out": 1,
+                "in": 1,
+                "out": 9,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "width": 2460.0,
@@ -103,61 +103,61 @@
             },
             "ports": [
                 {
-                    "x": 6238,
+                    "x": 6237,
                     "y": 0,
                     "label": "1",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 9538,
+                    "x": 9537,
                     "y": 20400,
                     "label": "2",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 8713,
+                    "x": 8712,
                     "y": 20400,
                     "label": "3",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 7888,
+                    "x": 7887,
                     "y": 20400,
                     "label": "4",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 7063,
+                    "x": 7062,
                     "y": 20400,
                     "label": "5",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 6238,
+                    "x": 6237,
                     "y": 20400,
                     "label": "6",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 5413,
+                    "x": 5412,
                     "y": 20400,
                     "label": "7",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 4588,
+                    "x": 4587,
                     "y": 20400,
                     "label": "8",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 3763,
+                    "x": 3762,
                     "y": 20400,
                     "label": "9",
                     "layer": "FLOW"
                 },
                 {
-                    "x": 2938,
+                    "x": 2937,
                     "y": 20400,
                     "label": "10",
                     "layer": "FLOW"

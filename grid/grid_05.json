@@ -69,8 +69,8 @@
             "params": {
                 "spacing": 1200.0,
                 "flowChannelWidth": 100,
-                "in": 5,
-                "out": 1,
+                "in": 1,
+                "out": 5,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "width": 2460.0,

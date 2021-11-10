@@ -89,8 +89,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "g",
@@ -235,8 +235,8 @@
                 "spacing": 500.0,
                 "flowChannelWidth": 100,
                 "stageLength": 500,
-                "in": 4,
-                "out": 1,
+                "in": 1,
+                "out": 4,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "width": 2460.0,

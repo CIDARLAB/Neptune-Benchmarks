@@ -467,8 +467,8 @@
                 "spacing": 500.0,
                 "flowChannelWidth": 100,
                 "stageLength": 500,
-                "in": 8,
-                "out": 1,
+                "in": 1,
+                "out": 8,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "width": 2460.0,
@@ -476,7 +476,7 @@
             },
             "ports": [
                 {
-                    "x": 2238,
+                    "x": 2237,
                     "y": 0,
                     "label": "1",
                     "layer": "FLOW"
@@ -700,8 +700,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n2",
@@ -722,8 +722,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n3",
@@ -744,8 +744,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n4",
@@ -766,8 +766,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n5",
@@ -788,8 +788,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n6",
@@ -810,8 +810,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n7",
@@ -832,8 +832,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n8",
@@ -854,8 +854,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n9",
@@ -876,8 +876,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n10",
@@ -898,8 +898,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n11",
@@ -920,8 +920,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n12",
@@ -942,8 +942,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n13",
@@ -964,8 +964,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n14",
@@ -986,8 +986,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n15",
@@ -1008,8 +1008,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "n16",
@@ -1030,8 +1030,8 @@
                 }
             ],
             "entity": "NODE",
-            "x-span": 0,
-            "y-span": 0
+            "x-span": 100,
+            "y-span": 100
         },
         {
             "name": "cp1",

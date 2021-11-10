@@ -152,8 +152,8 @@
                 "stageLength": 1000,
                 "flowChannelWidth": 100,
                 "controlChannelWidth": 50,
-                "in": 2,
-                "out": 1,
+                "in": 1,
+                "out": 2,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "height": 250.0
@@ -161,31 +161,31 @@
             "ports": [
                 {
                     "x": 700,
-                    "y": 2100,
+                    "y": 0,
                     "label": "1",
                     "layer": "FLOW"
                 },
                 {
                     "x": 1200,
-                    "y": 4200,
+                    "y": 2100,
                     "label": "2",
                     "layer": "FLOW"
                 },
                 {
                     "x": 200,
-                    "y": 4200,
+                    "y": 2100,
                     "label": "3",
                     "layer": "FLOW"
                 },
                 {
                     "x": 150,
-                    "y": 3450,
+                    "y": 1350,
                     "label": "4",
                     "layer": "CONTROL"
                 },
                 {
                     "x": 1250,
-                    "y": 3950,
+                    "y": 1850,
                     "label": "5",
                     "layer": "CONTROL"
                 }
@@ -204,8 +204,8 @@
                 "spacing": 500.0,
                 "flowChannelWidth": 100,
                 "stageLength": 500,
-                "in": 2,
-                "out": 1,
+                "in": 1,
+                "out": 2,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "width": 2460.0,

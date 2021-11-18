@@ -1,0 +1,629 @@
+digraph "" {
+	b1_1 -> n1 [key=0,
+	connection_id=c1,
+	connection_ref="{'name': 'c1', 'ID': 'c1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_1', '_port': '1'}, 'sinks': [{'_component': 'n1', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+	sink_port="{'_component': 'n1', '_port': '1'}",
+	source_port="{'_component': 'b1_1', '_port': '1'}"];
+n1 -> n2 [key=0,
+connection_id=c9,
+connection_ref="{'name': 'c9', 'ID': 'c9', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n1', '_port': '1'}, 'sinks': [{'_component': 'n2', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n2', '_port': '1'}",
+source_port="{'_component': 'n1', '_port': '1'}"];
+n1 -> b2_1 [key=0,
+connection_id=c16,
+connection_ref="{'name': 'c16', 'ID': 'c16', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n1', '_port': '1'}, 'sinks': [{'_component': 'b2_1', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_1', '_port': '1'}",
+source_port="{'_component': 'n1', '_port': '1'}"];
+n1 -> m2 [key=0,
+connection_id=c49,
+connection_ref="{'name': 'c49', 'ID': 'c49', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n1', '_port': '1'}, 'sinks': [{'_component': 'm2', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm2', '_port': '1'}",
+source_port="{'_component': 'n1', '_port': '1'}"];
+b1_2 -> n2 [key=0,
+connection_id=c2,
+connection_ref="{'name': 'c2', 'ID': 'c2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_2', '_port': '1'}, 'sinks': [{'_component': 'n2', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n2', '_port': '1'}",
+source_port="{'_component': 'b1_2', '_port': '1'}"];
+n2 -> n3 [key=0,
+connection_id=c10,
+connection_ref="{'name': 'c10', 'ID': 'c10', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n2', '_port': '1'}, 'sinks': [{'_component': 'n3', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n3', '_port': '1'}",
+source_port="{'_component': 'n2', '_port': '1'}"];
+n2 -> b2_2 [key=0,
+connection_id=c17,
+connection_ref="{'name': 'c17', 'ID': 'c17', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n2', '_port': '1'}, 'sinks': [{'_component': 'b2_2', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_2', '_port': '1'}",
+source_port="{'_component': 'n2', '_port': '1'}"];
+b1_3 -> n3 [key=0,
+connection_id=c3,
+connection_ref="{'name': 'c3', 'ID': 'c3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_3', '_port': '1'}, 'sinks': [{'_component': 'n3', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n3', '_port': '1'}",
+source_port="{'_component': 'b1_3', '_port': '1'}"];
+n3 -> n4 [key=0,
+connection_id=c11,
+connection_ref="{'name': 'c11', 'ID': 'c11', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n3', '_port': '1'}, 'sinks': [{'_component': 'n4', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n4', '_port': '1'}",
+source_port="{'_component': 'n3', '_port': '1'}"];
+n3 -> b2_3 [key=0,
+connection_id=c18,
+connection_ref="{'name': 'c18', 'ID': 'c18', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n3', '_port': '1'}, 'sinks': [{'_component': 'b2_3', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_3', '_port': '1'}",
+source_port="{'_component': 'n3', '_port': '1'}"];
+b1_4 -> n4 [key=0,
+connection_id=c4,
+connection_ref="{'name': 'c4', 'ID': 'c4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_4', '_port': '1'}, 'sinks': [{'_component': 'n4', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n4', '_port': '1'}",
+source_port="{'_component': 'b1_4', '_port': '1'}"];
+n4 -> n5 [key=0,
+connection_id=c12,
+connection_ref="{'name': 'c12', 'ID': 'c12', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n4', '_port': '1'}, 'sinks': [{'_component': 'n5', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n5', '_port': '1'}",
+source_port="{'_component': 'n4', '_port': '1'}"];
+n4 -> b2_4 [key=0,
+connection_id=c19,
+connection_ref="{'name': 'c19', 'ID': 'c19', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n4', '_port': '1'}, 'sinks': [{'_component': 'b2_4', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_4', '_port': '1'}",
+source_port="{'_component': 'n4', '_port': '1'}"];
+b1_5 -> n5 [key=0,
+connection_id=c5,
+connection_ref="{'name': 'c5', 'ID': 'c5', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_5', '_port': '1'}, 'sinks': [{'_component': 'n5', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n5', '_port': '1'}",
+source_port="{'_component': 'b1_5', '_port': '1'}"];
+n5 -> n6 [key=0,
+connection_id=c13,
+connection_ref="{'name': 'c13', 'ID': 'c13', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n5', '_port': '1'}, 'sinks': [{'_component': 'n6', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n6', '_port': '1'}",
+source_port="{'_component': 'n5', '_port': '1'}"];
+n5 -> b2_5 [key=0,
+connection_id=c20,
+connection_ref="{'name': 'c20', 'ID': 'c20', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n5', '_port': '1'}, 'sinks': [{'_component': 'b2_5', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_5', '_port': '1'}",
+source_port="{'_component': 'n5', '_port': '1'}"];
+b1_6 -> n6 [key=0,
+connection_id=c6,
+connection_ref="{'name': 'c6', 'ID': 'c6', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_6', '_port': '1'}, 'sinks': [{'_component': 'n6', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n6', '_port': '1'}",
+source_port="{'_component': 'b1_6', '_port': '1'}"];
+n6 -> n7 [key=0,
+connection_id=c14,
+connection_ref="{'name': 'c14', 'ID': 'c14', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n6', '_port': '1'}, 'sinks': [{'_component': 'n7', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n7', '_port': '1'}",
+source_port="{'_component': 'n6', '_port': '1'}"];
+n6 -> b2_6 [key=0,
+connection_id=c21,
+connection_ref="{'name': 'c21', 'ID': 'c21', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n6', '_port': '1'}, 'sinks': [{'_component': 'b2_6', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_6', '_port': '1'}",
+source_port="{'_component': 'n6', '_port': '1'}"];
+b1_7 -> n7 [key=0,
+connection_id=c7,
+connection_ref="{'name': 'c7', 'ID': 'c7', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_7', '_port': '1'}, 'sinks': [{'_component': 'n7', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n7', '_port': '1'}",
+source_port="{'_component': 'b1_7', '_port': '1'}"];
+n7 -> n8 [key=0,
+connection_id=c15,
+connection_ref="{'name': 'c15', 'ID': 'c15', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n7', '_port': '1'}, 'sinks': [{'_component': 'n8', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n8', '_port': '1'}",
+source_port="{'_component': 'n7', '_port': '1'}"];
+n7 -> b2_7 [key=0,
+connection_id=c22,
+connection_ref="{'name': 'c22', 'ID': 'c22', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n7', '_port': '1'}, 'sinks': [{'_component': 'b2_7', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_7', '_port': '1'}",
+source_port="{'_component': 'n7', '_port': '1'}"];
+b1_8 -> n8 [key=0,
+connection_id=c8,
+connection_ref="{'name': 'c8', 'ID': 'c8', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b1_8', '_port': '1'}, 'sinks': [{'_component': 'n8', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n8', '_port': '1'}",
+source_port="{'_component': 'b1_8', '_port': '1'}"];
+n8 -> b2_8 [key=0,
+connection_id=c23,
+connection_ref="{'name': 'c23', 'ID': 'c23', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n8', '_port': '1'}, 'sinks': [{'_component': 'b2_8', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b2_8', '_port': '1'}",
+source_port="{'_component': 'n8', '_port': '1'}"];
+b2_1 -> n9 [key=0,
+connection_id=c24,
+connection_ref="{'name': 'c24', 'ID': 'c24', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_1', '_port': '1'}, 'sinks': [{'_component': 'n9', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n9', '_port': '1'}",
+source_port="{'_component': 'b2_1', '_port': '1'}"];
+b2_2 -> n10 [key=0,
+connection_id=c25,
+connection_ref="{'name': 'c25', 'ID': 'c25', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_2', '_port': '1'}, 'sinks': [{'_component': 'n10', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n10', '_port': '1'}",
+source_port="{'_component': 'b2_2', '_port': '1'}"];
+b2_3 -> n11 [key=0,
+connection_id=c26,
+connection_ref="{'name': 'c26', 'ID': 'c26', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_3', '_port': '1'}, 'sinks': [{'_component': 'n11', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n11', '_port': '1'}",
+source_port="{'_component': 'b2_3', '_port': '1'}"];
+b2_4 -> n12 [key=0,
+connection_id=c27,
+connection_ref="{'name': 'c27', 'ID': 'c27', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_4', '_port': '1'}, 'sinks': [{'_component': 'n12', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n12', '_port': '1'}",
+source_port="{'_component': 'b2_4', '_port': '1'}"];
+b2_5 -> n13 [key=0,
+connection_id=c28,
+connection_ref="{'name': 'c28', 'ID': 'c28', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_5', '_port': '1'}, 'sinks': [{'_component': 'n13', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n13', '_port': '1'}",
+source_port="{'_component': 'b2_5', '_port': '1'}"];
+b2_6 -> n14 [key=0,
+connection_id=c29,
+connection_ref="{'name': 'c29', 'ID': 'c29', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_6', '_port': '1'}, 'sinks': [{'_component': 'n14', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n14', '_port': '1'}",
+source_port="{'_component': 'b2_6', '_port': '1'}"];
+b2_7 -> n15 [key=0,
+connection_id=c30,
+connection_ref="{'name': 'c30', 'ID': 'c30', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_7', '_port': '1'}, 'sinks': [{'_component': 'n15', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n15', '_port': '1'}",
+source_port="{'_component': 'b2_7', '_port': '1'}"];
+b2_8 -> n16 [key=0,
+connection_id=c31,
+connection_ref="{'name': 'c31', 'ID': 'c31', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'b2_8', '_port': '1'}, 'sinks': [{'_component': 'n16', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n16', '_port': '1'}",
+source_port="{'_component': 'b2_8', '_port': '1'}"];
+n9 -> n10 [key=0,
+connection_id=c32,
+connection_ref="{'name': 'c32', 'ID': 'c32', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n9', '_port': '1'}, 'sinks': [{'_component': 'n10', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n10', '_port': '1'}",
+source_port="{'_component': 'n9', '_port': '1'}"];
+n9 -> m1 [key=0,
+connection_id=c40,
+connection_ref="{'name': 'c40', 'ID': 'c40', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n9', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '2'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '2'}",
+source_port="{'_component': 'n9', '_port': '1'}"];
+n10 -> n11 [key=0,
+connection_id=c33,
+connection_ref="{'name': 'c33', 'ID': 'c33', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n10', '_port': '1'}, 'sinks': [{'_component': 'n11', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n11', '_port': '1'}",
+source_port="{'_component': 'n10', '_port': '1'}"];
+n10 -> m1 [key=0,
+connection_id=c41,
+connection_ref="{'name': 'c41', 'ID': 'c41', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n10', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '3'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '3'}",
+source_port="{'_component': 'n10', '_port': '1'}"];
+n11 -> n12 [key=0,
+connection_id=c34,
+connection_ref="{'name': 'c34', 'ID': 'c34', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n11', '_port': '1'}, 'sinks': [{'_component': 'n12', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n12', '_port': '1'}",
+source_port="{'_component': 'n11', '_port': '1'}"];
+n11 -> m1 [key=0,
+connection_id=c42,
+connection_ref="{'name': 'c42', 'ID': 'c42', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n11', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '4'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '4'}",
+source_port="{'_component': 'n11', '_port': '1'}"];
+n12 -> n13 [key=0,
+connection_id=c35,
+connection_ref="{'name': 'c35', 'ID': 'c35', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n12', '_port': '1'}, 'sinks': [{'_component': 'n13', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n13', '_port': '1'}",
+source_port="{'_component': 'n12', '_port': '1'}"];
+n12 -> m1 [key=0,
+connection_id=c43,
+connection_ref="{'name': 'c43', 'ID': 'c43', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n12', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '5'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '5'}",
+source_port="{'_component': 'n12', '_port': '1'}"];
+n13 -> n14 [key=0,
+connection_id=c36,
+connection_ref="{'name': 'c36', 'ID': 'c36', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n13', '_port': '1'}, 'sinks': [{'_component': 'n14', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n14', '_port': '1'}",
+source_port="{'_component': 'n13', '_port': '1'}"];
+n13 -> m1 [key=0,
+connection_id=c44,
+connection_ref="{'name': 'c44', 'ID': 'c44', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n13', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '6'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '6'}",
+source_port="{'_component': 'n13', '_port': '1'}"];
+n14 -> n15 [key=0,
+connection_id=c37,
+connection_ref="{'name': 'c37', 'ID': 'c37', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n14', '_port': '1'}, 'sinks': [{'_component': 'n15', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n15', '_port': '1'}",
+source_port="{'_component': 'n14', '_port': '1'}"];
+n14 -> m1 [key=0,
+connection_id=c45,
+connection_ref="{'name': 'c45', 'ID': 'c45', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n14', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '7'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '7'}",
+source_port="{'_component': 'n14', '_port': '1'}"];
+n15 -> n16 [key=0,
+connection_id=c38,
+connection_ref="{'name': 'c38', 'ID': 'c38', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n15', '_port': '1'}, 'sinks': [{'_component': 'n16', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'n16', '_port': '1'}",
+source_port="{'_component': 'n15', '_port': '1'}"];
+n15 -> m1 [key=0,
+connection_id=c46,
+connection_ref="{'name': 'c46', 'ID': 'c46', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n15', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '8'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '8'}",
+source_port="{'_component': 'n15', '_port': '1'}"];
+n16 -> p1 [key=0,
+connection_id=c39,
+connection_ref="{'name': 'c39', 'ID': 'c39', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n16', '_port': '1'}, 'sinks': [{'_component': 'p1', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'p1', '_port': '1'}",
+source_port="{'_component': 'n16', '_port': '1'}"];
+n16 -> m1 [key=0,
+connection_id=c47,
+connection_ref="{'name': 'c47', 'ID': 'c47', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'n16', '_port': '1'}, 'sinks': [{'_component': 'm1', '_port': '9'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm1', '_port': '9'}",
+source_port="{'_component': 'n16', '_port': '1'}"];
+m1 -> p2 [key=0,
+connection_id=c48,
+connection_ref="{'name': 'c48', 'ID': 'c48', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'm1', '_port': '1'}, 'sinks': [{'_component': 'p2', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'p2', '_port': '1'}",
+source_port="{'_component': 'm1', '_port': '1'}"];
+m2 -> b3_1 [key=0,
+connection_id=c50,
+connection_ref="{'name': 'c50', 'ID': 'c50', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'm2', '_port': '2'}, 'sinks': [{'_component': 'b3_1', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b3_1', '_port': '1'}",
+source_port="{'_component': 'm2', '_port': '2'}"];
+m2 -> b3_2 [key=0,
+connection_id=c51,
+connection_ref="{'name': 'c51', 'ID': 'c51', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'm2', '_port': '3'}, 'sinks': [{'_component': 'b3_2', '_port': '1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': '\
+FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'b3_2', '_port': '1'}",
+source_port="{'_component': 'm2', '_port': '3'}"];
+cp1 -> m2 [key=0,
+connection_id=cm1,
+connection_ref="{'name': 'cm1', 'ID': 'cm1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'cp1', '_port': '1'}, 'sinks': [{'_component': 'm2', '_port': '4'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm2', '_port': '4'}",
+source_port="{'_component': 'cp1', '_port': '1'}"];
+cp2 -> m2 [key=0,
+connection_id=cm2,
+connection_ref="{'name': 'cm2', 'ID': 'cm2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'cp2', '_port': '1'}, 'sinks': [{'_component': 'm2', '_port': '5'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'm2', '_port': '5'}",
+source_port="{'_component': 'cp2', '_port': '1'}"];
+v1 -> v2 [key=0,
+connection_id=cc1,
+connection_ref="{'name': 'cc1', 'ID': 'cc1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v1', '_port': '1'}, 'sinks': [{'_component': 'v2', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v2', '_port': '1'}",
+source_port="{'_component': 'v1', '_port': '1'}"];
+v2 -> v3 [key=0,
+connection_id=cc2,
+connection_ref="{'name': 'cc2', 'ID': 'cc2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v2', '_port': '1'}, 'sinks': [{'_component': 'v3', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v3', '_port': '1'}",
+source_port="{'_component': 'v2', '_port': '1'}"];
+v3 -> v4 [key=0,
+connection_id=cc3,
+connection_ref="{'name': 'cc3', 'ID': 'cc3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v3', '_port': '1'}, 'sinks': [{'_component': 'v4', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v4', '_port': '1'}",
+source_port="{'_component': 'v3', '_port': '1'}"];
+v4 -> v5 [key=0,
+connection_id=cc4,
+connection_ref="{'name': 'cc4', 'ID': 'cc4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v4', '_port': '1'}, 'sinks': [{'_component': 'v5', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v5', '_port': '1'}",
+source_port="{'_component': 'v4', '_port': '1'}"];
+v5 -> v6 [key=0,
+connection_id=cc5,
+connection_ref="{'name': 'cc5', 'ID': 'cc5', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v5', '_port': '1'}, 'sinks': [{'_component': 'v6', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v6', '_port': '1'}",
+source_port="{'_component': 'v5', '_port': '1'}"];
+v6 -> v7 [key=0,
+connection_id=cc6,
+connection_ref="{'name': 'cc6', 'ID': 'cc6', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v6', '_port': '1'}, 'sinks': [{'_component': 'v7', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v7', '_port': '1'}",
+source_port="{'_component': 'v6', '_port': '1'}"];
+v7 -> v8 [key=0,
+connection_id=cc7,
+connection_ref="{'name': 'cc7', 'ID': 'cc7', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v7', '_port': '1'}, 'sinks': [{'_component': 'v8', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v8', '_port': '1'}",
+source_port="{'_component': 'v7', '_port': '1'}"];
+v8 -> cp3 [key=0,
+connection_id=cc8,
+connection_ref="{'name': 'cc8', 'ID': 'cc8', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v8', '_port': '1'}, 'sinks': [{'_component': 'cp3', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'cp3', '_port': '1'}",
+source_port="{'_component': 'v8', '_port': '1'}"];
+cp4 -> v16 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v16', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v10 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v10', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v11 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v11', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v12 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v12', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v13 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v13', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v14 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v14', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v15 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v15', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+cp4 -> v9 [key=0,
+connection_id=n1,
+connection_ref="{'name': 'n1', 'ID': 'n1', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp4', '_port': '1'}, 'sinks': [{'_component': 'v16', '_port': '1'}, {'_component': 'v10', '_port': '1'}, {'_component': 'v11', '_\
+port': '1'}, {'_component': 'v12', '_port': '1'}, {'_component': 'v13', '_port': '1'}, {'_component': 'v14', '_port': '1'}, {'_component': '\
+v15', '_port': '1'}, {'_component': 'v9', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '0', '\
+params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v9', '_port': '1'}",
+source_port="{'_component': 'cp4', '_port': '1'}"];
+v25 -> v26 [key=0,
+connection_id=cc41,
+connection_ref="{'name': 'cc41', 'ID': 'cc41', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v25', '_port': '1'}, 'sinks': [{'_component': 'v26', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v26', '_port': '1'}",
+source_port="{'_component': 'v25', '_port': '1'}"];
+v25 -> cp6 [key=0,
+connection_id=cc48,
+connection_ref="{'name': 'cc48', 'ID': 'cc48', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v25', '_port': '1'}, 'sinks': [{'_component': 'cp6', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'cp6', '_port': '1'}",
+source_port="{'_component': 'v25', '_port': '1'}"];
+v26 -> v27 [key=0,
+connection_id=cc42,
+connection_ref="{'name': 'cc42', 'ID': 'cc42', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v26', '_port': '1'}, 'sinks': [{'_component': 'v27', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v27', '_port': '1'}",
+source_port="{'_component': 'v26', '_port': '1'}"];
+v27 -> v28 [key=0,
+connection_id=cc43,
+connection_ref="{'name': 'cc43', 'ID': 'cc43', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v27', '_port': '1'}, 'sinks': [{'_component': 'v28', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v28', '_port': '1'}",
+source_port="{'_component': 'v27', '_port': '1'}"];
+v28 -> v29 [key=0,
+connection_id=cc44,
+connection_ref="{'name': 'cc44', 'ID': 'cc44', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v28', '_port': '1'}, 'sinks': [{'_component': 'v29', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v29', '_port': '1'}",
+source_port="{'_component': 'v28', '_port': '1'}"];
+v29 -> v30 [key=0,
+connection_id=cc45,
+connection_ref="{'name': 'cc45', 'ID': 'cc45', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v29', '_port': '1'}, 'sinks': [{'_component': 'v30', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v30', '_port': '1'}",
+source_port="{'_component': 'v29', '_port': '1'}"];
+v30 -> v31 [key=0,
+connection_id=cc46,
+connection_ref="{'name': 'cc46', 'ID': 'cc46', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v30', '_port': '1'}, 'sinks': [{'_component': 'v31', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v31', '_port': '1'}",
+source_port="{'_component': 'v30', '_port': '1'}"];
+v31 -> v32 [key=0,
+connection_id=cc47,
+connection_ref="{'name': 'cc47', 'ID': 'cc47', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'v31', '_port': '1'}, 'sinks': [{'_component': 'v32', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': '\
+CONTROL', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v32', '_port': '1'}",
+source_port="{'_component': 'v31', '_port': '1'}"];
+cp5 -> v24 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v24', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v18 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v18', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v19 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v19', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v20 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v20', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v21 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v21', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v22 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v22', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v23 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v23', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+cp5 -> v17 [key=0,
+connection_id=n2,
+connection_ref="{'name': 'n2', 'ID': 'n2', 'entity': 'NET', 'params': {'data': {'channelWidth': 50, 'connectionSpacing': 1000}}, 'source': {'_component': '\
+cp5', '_port': '1'}, 'sinks': [{'_component': 'v24', '_port': '1'}, {'_component': 'v18', '_port': '1'}, {'_component': 'v19', '_\
+port': '1'}, {'_component': 'v20', '_port': '1'}, {'_component': 'v21', '_port': '1'}, {'_component': 'v22', '_port': '1'}, {'_component': '\
+v23', '_port': '1'}, {'_component': 'v17', '_port': '1'}], 'layer': {'_id': '1', 'name': 'FLOW_0', 'type': 'CONTROL', 'group': '\
+0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'v17', '_port': '1'}",
+source_port="{'_component': 'cp5', '_port': '1'}"];
+}

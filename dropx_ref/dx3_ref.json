@@ -470,7 +470,7 @@
             "sinks": [
                 {
                     "component": "picoinjector_1",
-                    "port": "2"
+                    "port": "3"
                 }
             ],
             "name": "connection_7",
@@ -491,7 +491,7 @@
             "sinks": [
                 {
                     "component": "picoinjector_2",
-                    "port": "2"
+                    "port": "3"
                 }
             ],
             "name": "connection_8",
@@ -519,7 +519,7 @@
             "id": "connection_9",
             "source": {
                 "component": "picoinjector_1",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,
@@ -540,7 +540,7 @@
             "id": "connection_10",
             "source": {
                 "component": "picoinjector_2",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,

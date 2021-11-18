@@ -680,7 +680,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "c9",
@@ -701,7 +701,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "2"
+                    "port": "3"
                 }
             ],
             "name": "c10",
@@ -722,7 +722,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "3"
+                    "port": "4"
                 }
             ],
             "name": "c11",
@@ -743,7 +743,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "4"
+                    "port": "5"
                 }
             ],
             "name": "c12",
@@ -771,7 +771,7 @@
             "id": "c13",
             "source": {
                 "component": "t1",
-                "port": "5"
+                "port": "1"
             },
             "params": {
                 "channelWidth": 100,

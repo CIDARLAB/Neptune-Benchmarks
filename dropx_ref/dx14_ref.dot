@@ -1,0 +1,107 @@
+digraph "" {
+	port_in1 -> mixer_in [key=0,
+	connection_id=channel_1,
+	connection_ref="{'name': 'channel_1', 'ID': 'channel_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, '\
+source': {'_component': 'port_in1', '_port': '1'}, 'sinks': [{'_component': 'mixer_in', '_port': '1'}], 'layer': {'_id': '0', 'name': '\
+FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+	sink_port="{'_component': 'mixer_in', '_port': '1'}",
+	source_port="{'_component': 'port_in1', '_port': '1'}"];
+mixer_in -> nozzle_droplet_generator1 [key=0,
+connection_id=channel_mixed_1,
+connection_ref="{'name': 'channel_mixed_1', 'ID': 'channel_mixed_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'mixer_in', '_port': '2'}, 'sinks': [{'_component': 'nozzle_droplet_generator1', '_port': '1'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'nozzle_droplet_generator1', '_port': '1'}",
+source_port="{'_component': 'mixer_in', '_port': '2'}"];
+mixer_in -> nozzle_droplet_generator2 [key=0,
+connection_id=channel_mixed_2,
+connection_ref="{'name': 'channel_mixed_2', 'ID': 'channel_mixed_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'mixer_in', '_port': '2'}, 'sinks': [{'_component': 'nozzle_droplet_generator2', '_port': '1'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'nozzle_droplet_generator2', '_port': '1'}",
+source_port="{'_component': 'mixer_in', '_port': '2'}"];
+port_in2 -> mixer_in [key=0,
+connection_id=channel_2,
+connection_ref="{'name': 'channel_2', 'ID': 'channel_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, '\
+source': {'_component': 'port_in2', '_port': '1'}, 'sinks': [{'_component': 'mixer_in', '_port': '1'}], 'layer': {'_id': '0', 'name': '\
+FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'mixer_in', '_port': '1'}",
+source_port="{'_component': 'port_in2', '_port': '1'}"];
+port_in3 -> mixer_in [key=0,
+connection_id=channel_3,
+connection_ref="{'name': 'channel_3', 'ID': 'channel_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, '\
+source': {'_component': 'port_in3', '_port': '1'}, 'sinks': [{'_component': 'mixer_in', '_port': '1'}], 'layer': {'_id': '0', 'name': '\
+FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'mixer_in', '_port': '1'}",
+source_port="{'_component': 'port_in3', '_port': '1'}"];
+nozzle_droplet_generator1 -> mixer_incubate1 [key=0,
+connection_id=channel_incubate1,
+connection_ref="{'name': 'channel_incubate1', 'ID': 'channel_incubate1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'nozzle_droplet_generator1', '_port': '3'}, 'sinks': [{'_component': 'mixer_incubate1', '_port': '\
+1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'mixer_incubate1', '_port': '1'}",
+source_port="{'_component': 'nozzle_droplet_generator1', '_port': '3'}"];
+nozzle_droplet_generator2 -> mixer_incubate2 [key=0,
+connection_id=channel_incubate2,
+connection_ref="{'name': 'channel_incubate2', 'ID': 'channel_incubate2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'nozzle_droplet_generator2', '_port': '3'}, 'sinks': [{'_component': 'mixer_incubate2', '_port': '\
+1'}], 'layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'mixer_incubate2', '_port': '1'}",
+source_port="{'_component': 'nozzle_droplet_generator2', '_port': '3'}"];
+port_oil1 -> nozzle_droplet_generator1 [key=0,
+connection_id=channel_oil1,
+connection_ref="{'name': 'channel_oil1', 'ID': 'channel_oil1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'port_oil1', '_port': '1'}, 'sinks': [{'_component': 'nozzle_droplet_generator1', '_port': '2'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'nozzle_droplet_generator1', '_port': '2'}",
+source_port="{'_component': 'port_oil1', '_port': '1'}"];
+port_oil2 -> nozzle_droplet_generator1 [key=0,
+connection_id=channel_oil2,
+connection_ref="{'name': 'channel_oil2', 'ID': 'channel_oil2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'port_oil2', '_port': '1'}, 'sinks': [{'_component': 'nozzle_droplet_generator1', '_port': '4'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'nozzle_droplet_generator1', '_port': '4'}",
+source_port="{'_component': 'port_oil2', '_port': '1'}"];
+port_oil3 -> nozzle_droplet_generator2 [key=0,
+connection_id=channel_oil3,
+connection_ref="{'name': 'channel_oil3', 'ID': 'channel_oil3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'port_oil3', '_port': '1'}, 'sinks': [{'_component': 'nozzle_droplet_generator2', '_port': '2'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'nozzle_droplet_generator2', '_port': '2'}",
+source_port="{'_component': 'port_oil3', '_port': '1'}"];
+port_oil4 -> nozzle_droplet_generator2 [key=0,
+connection_id=channel_oil4,
+connection_ref="{'name': 'channel_oil4', 'ID': 'channel_oil4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'port_oil4', '_port': '1'}, 'sinks': [{'_component': 'nozzle_droplet_generator2', '_port': '4'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'nozzle_droplet_generator2', '_port': '4'}",
+source_port="{'_component': 'port_oil4', '_port': '1'}"];
+mixer_incubate1 -> droplet_sorter1 [key=0,
+connection_id=channel_incubate3,
+connection_ref="{'name': 'channel_incubate3', 'ID': 'channel_incubate3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'mixer_incubate1', '_port': '1'}, 'sinks': [{'_component': 'droplet_sorter1', '_port': '1'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'droplet_sorter1', '_port': '1'}",
+source_port="{'_component': 'mixer_incubate1', '_port': '1'}"];
+mixer_incubate2 -> droplet_sorter1 [key=0,
+connection_id=channel_incubate4,
+connection_ref="{'name': 'channel_incubate4', 'ID': 'channel_incubate4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'mixer_incubate2', '_port': '1'}, 'sinks': [{'_component': 'droplet_sorter1', '_port': '1'}], '\
+layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'droplet_sorter1', '_port': '1'}",
+source_port="{'_component': 'mixer_incubate2', '_port': '1'}"];
+droplet_sorter1 -> port_out1 [key=0,
+connection_id=channel_out1,
+connection_ref="{'name': 'channel_out1', 'ID': 'channel_out1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'droplet_sorter1', '_port': '2'}, 'sinks': [{'_component': 'port_out1', '_port': '1'}], 'layer': {'_\
+id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'port_out1', '_port': '1'}",
+source_port="{'_component': 'droplet_sorter1', '_port': '2'}"];
+droplet_sorter1 -> port_out2 [key=0,
+connection_id=channel_out2,
+connection_ref="{'name': 'channel_out2', 'ID': 'channel_out2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': \
+1000}}, 'source': {'_component': 'droplet_sorter1', '_port': '3'}, 'sinks': [{'_component': 'port_out2', '_port': '1'}], 'layer': {'_\
+id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'port_out2', '_port': '1'}",
+source_port="{'_component': 'droplet_sorter1', '_port': '3'}"];
+}

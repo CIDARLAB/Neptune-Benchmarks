@@ -2796,7 +2796,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "c40",
@@ -2817,7 +2817,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "2"
+                    "port": "3"
                 }
             ],
             "name": "c41",
@@ -2838,7 +2838,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "3"
+                    "port": "4"
                 }
             ],
             "name": "c42",
@@ -2859,7 +2859,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "4"
+                    "port": "5"
                 }
             ],
             "name": "c43",
@@ -2880,7 +2880,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "5"
+                    "port": "6"
                 }
             ],
             "name": "c44",
@@ -2901,7 +2901,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "6"
+                    "port": "7"
                 }
             ],
             "name": "c45",
@@ -2922,7 +2922,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "7"
+                    "port": "8"
                 }
             ],
             "name": "c46",
@@ -2943,7 +2943,7 @@
             "sinks": [
                 {
                     "component": "m1",
-                    "port": "8"
+                    "port": "9"
                 }
             ],
             "name": "c47",
@@ -2971,7 +2971,7 @@
             "id": "c48",
             "source": {
                 "component": "m1",
-                "port": "9"
+                "port": "1"
             },
             "params": {
                 "channelWidth": 100,
@@ -3577,5 +3577,38 @@
         "v31": "c46",
         "v32": "c47"
     },
-    "valveTypeMap": {}
+    "valveTypeMap": {
+        "v1": "NORMALLY_OPEN",
+        "v2": "NORMALLY_OPEN",
+        "v3": "NORMALLY_OPEN",
+        "v4": "NORMALLY_OPEN",
+        "v5": "NORMALLY_OPEN",
+        "v6": "NORMALLY_OPEN",
+        "v7": "NORMALLY_OPEN",
+        "v8": "NORMALLY_OPEN",
+        "v9": "NORMALLY_OPEN",
+        "v10": "NORMALLY_OPEN",
+        "v11": "NORMALLY_OPEN",
+        "v12": "NORMALLY_OPEN",
+        "v13": "NORMALLY_OPEN",
+        "v14": "NORMALLY_OPEN",
+        "v15": "NORMALLY_OPEN",
+        "v16": "NORMALLY_OPEN",
+        "v17": "NORMALLY_OPEN",
+        "v18": "NORMALLY_OPEN",
+        "v19": "NORMALLY_OPEN",
+        "v20": "NORMALLY_OPEN",
+        "v21": "NORMALLY_OPEN",
+        "v22": "NORMALLY_OPEN",
+        "v23": "NORMALLY_OPEN",
+        "v24": "NORMALLY_OPEN",
+        "v25": "NORMALLY_OPEN",
+        "v26": "NORMALLY_OPEN",
+        "v27": "NORMALLY_OPEN",
+        "v28": "NORMALLY_OPEN",
+        "v29": "NORMALLY_OPEN",
+        "v30": "NORMALLY_OPEN",
+        "v31": "NORMALLY_OPEN",
+        "v32": "NORMALLY_OPEN"
+    }
 }

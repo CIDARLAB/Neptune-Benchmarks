@@ -591,7 +591,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "2"
+                    "port": "1"
                 }
             ],
             "name": "c1",
@@ -612,7 +612,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "4"
+                    "port": "3"
                 }
             ],
             "name": "c2",
@@ -633,7 +633,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "1"
+                    "port": "4"
                 }
             ],
             "name": "c3",

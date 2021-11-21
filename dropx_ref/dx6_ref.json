@@ -308,7 +308,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "2"
+                    "port": "1"
                 }
             ],
             "name": "connection_3",
@@ -329,7 +329,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "4"
+                    "port": "3"
                 }
             ],
             "name": "connection_4",
@@ -350,7 +350,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "1"
+                    "port": "4"
                 }
             ],
             "name": "connection_5",
@@ -378,7 +378,7 @@
             "id": "connection_6",
             "source": {
                 "component": "nozzle_droplet_generator_1",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,

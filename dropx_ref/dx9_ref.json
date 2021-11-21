@@ -443,7 +443,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "2"
+                    "port": "1"
                 }
             ],
             "name": "connection_1",
@@ -464,7 +464,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "4"
+                    "port": "3"
                 }
             ],
             "name": "connection_2",
@@ -485,7 +485,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_1",
-                    "port": "1"
+                    "port": "4"
                 }
             ],
             "name": "connection_3",
@@ -506,7 +506,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_2",
-                    "port": "2"
+                    "port": "1"
                 }
             ],
             "name": "connection_4",
@@ -527,7 +527,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_2",
-                    "port": "4"
+                    "port": "3"
                 }
             ],
             "name": "connection_5",
@@ -548,7 +548,7 @@
             "sinks": [
                 {
                     "component": "nozzle_droplet_generator_2",
-                    "port": "1"
+                    "port": "4"
                 }
             ],
             "name": "connection_6",
@@ -576,7 +576,7 @@
             "id": "connection_7",
             "source": {
                 "component": "nozzle_droplet_generator_1",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,
@@ -597,7 +597,7 @@
             "id": "connection_8",
             "source": {
                 "component": "nozzle_droplet_generator_2",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,

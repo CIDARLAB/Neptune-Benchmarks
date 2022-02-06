@@ -10,7 +10,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -33,7 +37,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -56,7 +64,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -79,7 +91,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -102,7 +118,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -125,7 +145,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -148,7 +172,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -171,7 +199,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -200,7 +232,11 @@
                 "outputLength": 5000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -247,7 +283,11 @@
                 "outputLength": 5000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -292,7 +332,11 @@
                 "bendLength": 2000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -337,7 +381,11 @@
                 "pressureDepth": 200,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "pressureSpacing": 1500.0
+                "pressureSpacing": 1500.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -418,6 +466,27 @@
             "id": "connection_3",
             "source": {
                 "component": "port_water1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "nozzle_droplet_generator_2",
+                    "port": "4"
+                }
+            ],
+            "name": "connection_4",
+            "id": "connection_4",
+            "source": {
+                "component": "port_water2",
                 "port": "1"
             },
             "params": {

@@ -10,7 +10,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -33,7 +37,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -56,7 +64,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -85,7 +97,11 @@
                 "outputLength": 5000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -126,7 +142,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -158,7 +178,11 @@
                 "electrodeWidth": 800,
                 "electrodeLength": 3000,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -197,7 +221,11 @@
                 "bendLength": 2000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -242,7 +270,11 @@
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "height": 250.0,
-                "pressureSpacing": 1500.0
+                "pressureSpacing": 1500.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -281,7 +313,11 @@
                 "bendLength": 2000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -310,7 +346,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -333,7 +373,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -365,7 +409,11 @@
                 "electrodeWidth": 800,
                 "electrodeLength": 3000,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -404,7 +452,11 @@
                 "bendLength": 2000,
                 "height": 300,
                 "componentSpacing": 1000.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -449,7 +501,11 @@
                 "pressureDepth": 200,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "pressureSpacing": 1500.0
+                "pressureSpacing": 1500.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -484,7 +540,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -507,7 +567,11 @@
             "params": {
                 "portRadius": 2000,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -694,6 +758,27 @@
         {
             "sinks": [
                 {
+                    "component": "port_out_waste1",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_15",
+            "id": "connection_15",
+            "source": {
+                "component": "droplet_sorter_1",
+                "port": "2"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
                     "component": "pico_injector_2",
                     "port": "2"
                 }
@@ -716,7 +801,7 @@
             "sinks": [
                 {
                     "component": "pico_injector_2",
-                    "port": "2"
+                    "port": "3"
                 }
             ],
             "name": "connection_10",
@@ -744,7 +829,7 @@
             "id": "connection_11",
             "source": {
                 "component": "pico_injector_2",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,

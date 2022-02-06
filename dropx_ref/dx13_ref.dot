@@ -6,13 +6,6 @@ component': 'port_oil1', '_port': '1'}, 'sinks': [{'_component': 'nozzle_droplet
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
 	sink_port="{'_component': 'nozzle_droplet_generator_1', '_port': '1'}",
 	source_port="{'_component': 'port_oil1', '_port': '1'}"];
-nozzle_droplet_generator_1 -> mixer_1 [key=0,
-connection_id=c4,
-connection_ref="{'name': 'c4', 'ID': 'c4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\
-component': 'nozzle_droplet_generator_1', '_port': '1'}, 'sinks': [{'_component': 'mixer_1', '_port': '1'}], 'layer': {'_id': '0', '\
-name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'mixer_1', '_port': '1'}",
-source_port="{'_component': 'nozzle_droplet_generator_1', '_port': '1'}"];
 port_oil2 -> nozzle_droplet_generator_1 [key=0,
 connection_id=c2,
 connection_ref="{'name': 'c2', 'ID': 'c2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\
@@ -27,6 +20,13 @@ component': 'port_water1', '_port': '1'}, 'sinks': [{'_component': 'nozzle_dropl
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
 sink_port="{'_component': 'nozzle_droplet_generator_1', '_port': '4'}",
 source_port="{'_component': 'port_water1', '_port': '1'}"];
+nozzle_droplet_generator_1 -> mixer_1 [key=0,
+connection_id=c4,
+connection_ref="{'name': 'c4', 'ID': 'c4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\
+component': 'nozzle_droplet_generator_1', '_port': '1'}, 'sinks': [{'_component': 'mixer_1', '_port': '1'}], 'layer': {'_id': '0', '\
+name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
+sink_port="{'_component': 'mixer_1', '_port': '1'}",
+source_port="{'_component': 'nozzle_droplet_generator_1', '_port': '1'}"];
 mixer_1 -> pico_injector_1 [key=0,
 connection_id=c6,
 connection_ref="{'name': 'c6', 'ID': 'c6', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\
@@ -72,17 +72,17 @@ source_port="{'_component': 'droplet_sorter_1', '_port': '3'}"];
 port_injector2 -> pico_injector_2 [key=0,
 connection_id=c9,
 connection_ref="{'name': 'c9', 'ID': 'c9', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\
-component': 'port_injector2', '_port': '1'}, 'sinks': [{'_component': 'pico_injector_2', '_port': '2'}], 'layer': {'_id': '0', '\
+component': 'port_injector2', '_port': '1'}, 'sinks': [{'_component': 'pico_injector_2', '_port': '3'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'pico_injector_2', '_port': '2'}",
+sink_port="{'_component': 'pico_injector_2', '_port': '3'}",
 source_port="{'_component': 'port_injector2', '_port': '1'}"];
 pico_injector_2 -> mixer_3 [key=0,
 connection_id=c10,
 connection_ref="{'name': 'c10', 'ID': 'c10', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\
-component': 'pico_injector_2', '_port': '3'}, 'sinks': [{'_component': 'mixer_3', '_port': '1'}], 'layer': {'_id': '0', 'name': '\
+component': 'pico_injector_2', '_port': '2'}, 'sinks': [{'_component': 'mixer_3', '_port': '1'}], 'layer': {'_id': '0', 'name': '\
 FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
 sink_port="{'_component': 'mixer_3', '_port': '1'}",
-source_port="{'_component': 'pico_injector_2', '_port': '3'}"];
+source_port="{'_component': 'pico_injector_2', '_port': '2'}"];
 mixer_3 -> droplet_sorter_2 [key=0,
 connection_id=c12,
 connection_ref="{'name': 'c12', 'ID': 'c12', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 300, 'connectionSpacing': 1000}}, 'source': {'_\

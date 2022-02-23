@@ -10,7 +10,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -33,7 +37,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -56,7 +64,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -78,7 +90,11 @@
             ],
             "params": {
                 "componentSpacing": 1000.0,
-                "height": 100.0
+                "height": 100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -108,7 +124,11 @@
                 "out": 4,
                 "componentSpacing": 1000.0,
                 "height": 250.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -163,7 +183,11 @@
                 "out": 4,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -240,7 +264,11 @@
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
                 "width": 2460.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -292,7 +320,11 @@
                 "feedingChannelWidth": 100,
                 "componentSpacing": 1000.0,
                 "rotation": 270.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -326,7 +358,11 @@
                 "feedingChannelWidth": 100,
                 "componentSpacing": 1000.0,
                 "rotation": 270.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -360,7 +396,11 @@
                 "feedingChannelWidth": 100,
                 "componentSpacing": 1000.0,
                 "rotation": 270.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -394,7 +434,11 @@
                 "feedingChannelWidth": 100,
                 "componentSpacing": 1000.0,
                 "rotation": 270.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -423,7 +467,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -446,7 +494,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -469,7 +521,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -492,7 +548,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -680,7 +740,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "2"
+                    "port": "5"
                 }
             ],
             "name": "c9",
@@ -701,7 +761,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "3"
+                    "port": "4"
                 }
             ],
             "name": "c10",
@@ -722,7 +782,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "4"
+                    "port": "3"
                 }
             ],
             "name": "c11",
@@ -743,7 +803,7 @@
             "sinks": [
                 {
                     "component": "t1",
-                    "port": "5"
+                    "port": "2"
                 }
             ],
             "name": "c12",

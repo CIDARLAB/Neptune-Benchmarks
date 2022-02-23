@@ -10,7 +10,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -39,7 +43,11 @@
                 "rotation": 0.0,
                 "width": 2460.0,
                 "height": 250.0,
-                "stageLength": 4000.0
+                "stageLength": 4000.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -91,7 +99,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -137,7 +149,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -183,7 +199,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -229,7 +249,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -275,7 +299,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -321,7 +349,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -367,7 +399,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -413,7 +449,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -459,7 +499,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -505,7 +549,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -551,7 +599,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -597,7 +649,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -643,7 +699,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -689,7 +749,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -735,7 +799,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -781,7 +849,11 @@
                 "rotation": 0.0,
                 "height": 250.0,
                 "channelLength": 4000.0,
-                "chamberHeight": 250.0
+                "chamberHeight": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -828,7 +900,11 @@
                 "rotation": 0.0,
                 "width": 2460.0,
                 "height": 250.0,
-                "stageLength": 4000.0
+                "stageLength": 4000.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -875,7 +951,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -898,7 +978,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -921,7 +1005,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -944,7 +1032,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -967,7 +1059,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -990,7 +1086,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1013,7 +1113,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1036,7 +1140,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1061,7 +1169,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1086,7 +1198,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1111,7 +1227,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1136,7 +1256,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1161,7 +1285,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1186,7 +1314,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1211,7 +1343,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1236,7 +1372,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1261,7 +1401,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1286,7 +1430,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1311,7 +1459,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1336,7 +1488,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1361,7 +1517,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1386,7 +1546,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1411,7 +1575,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1436,7 +1604,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1461,7 +1633,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1486,7 +1662,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1511,7 +1691,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1536,7 +1720,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1561,7 +1749,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1586,7 +1778,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1611,7 +1807,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1636,7 +1836,11 @@
                 "length": 100.0,
                 "componentSpacing": 1000.0,
                 "rotation": 0.0,
-                "height": 250.0
+                "height": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -1677,14 +1881,14 @@
             "sinks": [
                 {
                     "component": "ct_1_2",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_1_1",
             "id": "channel_horizontal_1_1",
             "source": {
                 "component": "ct_1_1",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1698,14 +1902,14 @@
             "sinks": [
                 {
                     "component": "ct_1_3",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_1_2",
             "id": "channel_horizontal_1_2",
             "source": {
                 "component": "ct_1_2",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1719,14 +1923,14 @@
             "sinks": [
                 {
                     "component": "ct_1_4",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_1_3",
             "id": "channel_horizontal_1_3",
             "source": {
                 "component": "ct_1_3",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1740,14 +1944,14 @@
             "sinks": [
                 {
                     "component": "ct_2_2",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_2_1",
             "id": "channel_horizontal_2_1",
             "source": {
                 "component": "ct_2_1",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1761,14 +1965,14 @@
             "sinks": [
                 {
                     "component": "ct_2_3",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_2_2",
             "id": "channel_horizontal_2_2",
             "source": {
                 "component": "ct_2_2",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1782,14 +1986,14 @@
             "sinks": [
                 {
                     "component": "ct_2_4",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_2_3",
             "id": "channel_horizontal_2_3",
             "source": {
                 "component": "ct_2_3",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1803,14 +2007,14 @@
             "sinks": [
                 {
                     "component": "ct_3_2",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_3_1",
             "id": "channel_horizontal_3_1",
             "source": {
                 "component": "ct_3_1",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1824,14 +2028,14 @@
             "sinks": [
                 {
                     "component": "ct_3_3",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_3_2",
             "id": "channel_horizontal_3_2",
             "source": {
                 "component": "ct_3_2",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1845,14 +2049,14 @@
             "sinks": [
                 {
                     "component": "ct_3_4",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_3_3",
             "id": "channel_horizontal_3_3",
             "source": {
                 "component": "ct_3_3",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1866,14 +2070,14 @@
             "sinks": [
                 {
                     "component": "ct_4_2",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_4_1",
             "id": "channel_horizontal_4_1",
             "source": {
                 "component": "ct_4_1",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1887,14 +2091,14 @@
             "sinks": [
                 {
                     "component": "ct_4_3",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_4_2",
             "id": "channel_horizontal_4_2",
             "source": {
                 "component": "ct_4_2",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1908,14 +2112,14 @@
             "sinks": [
                 {
                     "component": "ct_4_4",
-                    "port": "4"
+                    "port": "1"
                 }
             ],
             "name": "channel_horizontal_4_3",
             "id": "channel_horizontal_4_3",
             "source": {
                 "component": "ct_4_3",
-                "port": "2"
+                "port": "3"
             },
             "params": {
                 "channelWidth": 100,
@@ -1929,14 +2133,14 @@
             "sinks": [
                 {
                     "component": "ct_2_1",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_1_1",
             "id": "channel_vertical_1_1",
             "source": {
                 "component": "ct_1_1",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -1950,14 +2154,14 @@
             "sinks": [
                 {
                     "component": "ct_2_2",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_1_2",
             "id": "channel_vertical_1_2",
             "source": {
                 "component": "ct_1_2",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -1971,14 +2175,14 @@
             "sinks": [
                 {
                     "component": "ct_2_3",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_1_3",
             "id": "channel_vertical_1_3",
             "source": {
                 "component": "ct_1_3",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -1992,14 +2196,14 @@
             "sinks": [
                 {
                     "component": "ct_2_4",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_1_4",
             "id": "channel_vertical_1_4",
             "source": {
                 "component": "ct_1_4",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2013,14 +2217,14 @@
             "sinks": [
                 {
                     "component": "ct_3_1",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_2_1",
             "id": "channel_vertical_2_1",
             "source": {
                 "component": "ct_2_1",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2034,14 +2238,14 @@
             "sinks": [
                 {
                     "component": "ct_3_2",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_2_2",
             "id": "channel_vertical_2_2",
             "source": {
                 "component": "ct_2_2",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2055,14 +2259,14 @@
             "sinks": [
                 {
                     "component": "ct_3_3",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_2_3",
             "id": "channel_vertical_2_3",
             "source": {
                 "component": "ct_2_3",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2076,14 +2280,14 @@
             "sinks": [
                 {
                     "component": "ct_3_4",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_2_4",
             "id": "channel_vertical_2_4",
             "source": {
                 "component": "ct_2_4",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2097,14 +2301,14 @@
             "sinks": [
                 {
                     "component": "ct_4_1",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_3_1",
             "id": "channel_vertical_3_1",
             "source": {
                 "component": "ct_3_1",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2118,14 +2322,14 @@
             "sinks": [
                 {
                     "component": "ct_4_2",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_3_2",
             "id": "channel_vertical_3_2",
             "source": {
                 "component": "ct_3_2",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2139,14 +2343,14 @@
             "sinks": [
                 {
                     "component": "ct_4_3",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_3_3",
             "id": "channel_vertical_3_3",
             "source": {
                 "component": "ct_3_3",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2160,14 +2364,14 @@
             "sinks": [
                 {
                     "component": "ct_4_4",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_vertical_3_4",
             "id": "channel_vertical_3_4",
             "source": {
                 "component": "ct_3_4",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2181,7 +2385,7 @@
             "sinks": [
                 {
                     "component": "ct_1_1",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_in_1",
@@ -2202,7 +2406,7 @@
             "sinks": [
                 {
                     "component": "ct_1_2",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_in_2",
@@ -2223,7 +2427,7 @@
             "sinks": [
                 {
                     "component": "ct_1_3",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_in_3",
@@ -2244,7 +2448,7 @@
             "sinks": [
                 {
                     "component": "ct_1_4",
-                    "port": "1"
+                    "port": "2"
                 }
             ],
             "name": "channel_in_4",
@@ -2265,35 +2469,14 @@
             "sinks": [
                 {
                     "component": "output_tree",
-                    "port": "2"
+                    "port": "5"
                 }
             ],
             "name": "channel_out_1",
             "id": "channel_out_1",
             "source": {
                 "component": "ct_4_1",
-                "port": "3"
-            },
-            "params": {
-                "channelWidth": 100,
-                "connectionSpacing": 1000
-            },
-            "layer": "0",
-            "paths": [],
-            "entity": "CHANNEL"
-        },
-        {
-            "sinks": [
-                {
-                    "component": "output_tree",
-                    "port": "3"
-                }
-            ],
-            "name": "channel_out_2",
-            "id": "channel_out_2",
-            "source": {
-                "component": "ct_4_2",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2310,11 +2493,11 @@
                     "port": "4"
                 }
             ],
-            "name": "channel_out_3",
-            "id": "channel_out_3",
+            "name": "channel_out_2",
+            "id": "channel_out_2",
             "source": {
-                "component": "ct_4_3",
-                "port": "3"
+                "component": "ct_4_2",
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,
@@ -2328,14 +2511,35 @@
             "sinks": [
                 {
                     "component": "output_tree",
-                    "port": "5"
+                    "port": "3"
+                }
+            ],
+            "name": "channel_out_3",
+            "id": "channel_out_3",
+            "source": {
+                "component": "ct_4_3",
+                "port": "4"
+            },
+            "params": {
+                "channelWidth": 100,
+                "connectionSpacing": 1000
+            },
+            "layer": "0",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "output_tree",
+                    "port": "2"
                 }
             ],
             "name": "channel_out_4",
             "id": "channel_out_4",
             "source": {
                 "component": "ct_4_4",
-                "port": "3"
+                "port": "4"
             },
             "params": {
                 "channelWidth": 100,

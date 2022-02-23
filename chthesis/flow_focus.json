@@ -10,7 +10,11 @@
             "params": {
                 "portRadius": 100,
                 "componentSpacing": 1000.0,
-                "height": 1100.0
+                "height": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -38,7 +42,11 @@
                 "length": 500.0,
                 "componentSpacing": 1000.0,
                 "height": 250.0,
-                "rotation": 0.0
+                "rotation": 0.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -60,7 +68,11 @@
             ],
             "params": {
                 "componentSpacing": 1000.0,
-                "height": 100.0
+                "height": 100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {
@@ -82,7 +94,11 @@
             ],
             "params": {
                 "componentSpacing": 1000.0,
-                "height": 100.0
+                "height": 100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
             },
             "ports": [
                 {

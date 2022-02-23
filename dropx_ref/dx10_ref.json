@@ -407,7 +407,7 @@
             "sinks": [
                 {
                     "component": "pico_injector_1",
-                    "port": "2"
+                    "port": "3"
                 }
             ],
             "name": "connection_5",
@@ -435,7 +435,7 @@
             "id": "connection_6",
             "source": {
                 "component": "pico_injector_1",
-                "port": "3"
+                "port": "2"
             },
             "params": {
                 "channelWidth": 300,

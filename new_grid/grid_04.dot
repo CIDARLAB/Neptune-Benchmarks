@@ -9,227 +9,227 @@ name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths'
 input_tree -> ct_1_1 [key=0,
 connection_id=channel_in_1,
 connection_ref="{'name': 'channel_in_1', 'ID': 'channel_in_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'input_tree', '_port': '2'}, 'sinks': [{'_component': 'ct_1_1', '_port': '1'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'input_tree', '_port': '2'}, 'sinks': [{'_component': 'ct_1_1', '_port': '2'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_1', '_port': '1'}",
+sink_port="{'_component': 'ct_1_1', '_port': '2'}",
 source_port="{'_component': 'input_tree', '_port': '2'}"];
 input_tree -> ct_1_2 [key=0,
 connection_id=channel_in_2,
 connection_ref="{'name': 'channel_in_2', 'ID': 'channel_in_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'input_tree', '_port': '3'}, 'sinks': [{'_component': 'ct_1_2', '_port': '1'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'input_tree', '_port': '3'}, 'sinks': [{'_component': 'ct_1_2', '_port': '2'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_2', '_port': '1'}",
+sink_port="{'_component': 'ct_1_2', '_port': '2'}",
 source_port="{'_component': 'input_tree', '_port': '3'}"];
 input_tree -> ct_1_3 [key=0,
 connection_id=channel_in_3,
 connection_ref="{'name': 'channel_in_3', 'ID': 'channel_in_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'input_tree', '_port': '4'}, 'sinks': [{'_component': 'ct_1_3', '_port': '1'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'input_tree', '_port': '4'}, 'sinks': [{'_component': 'ct_1_3', '_port': '2'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_3', '_port': '1'}",
+sink_port="{'_component': 'ct_1_3', '_port': '2'}",
 source_port="{'_component': 'input_tree', '_port': '4'}"];
 input_tree -> ct_1_4 [key=0,
 connection_id=channel_in_4,
 connection_ref="{'name': 'channel_in_4', 'ID': 'channel_in_4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'input_tree', '_port': '5'}, 'sinks': [{'_component': 'ct_1_4', '_port': '1'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'input_tree', '_port': '5'}, 'sinks': [{'_component': 'ct_1_4', '_port': '2'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_4', '_port': '1'}",
+sink_port="{'_component': 'ct_1_4', '_port': '2'}",
 source_port="{'_component': 'input_tree', '_port': '5'}"];
 ct_1_1 -> ct_1_2 [key=0,
 connection_id=channel_horizontal_1_1,
 connection_ref="{'name': 'channel_horizontal_1_1', 'ID': 'channel_horizontal_1_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_1_1', '_port': '2'}, 'sinks': [{'_component': 'ct_1_2', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_1_1', '_port': '3'}, 'sinks': [{'_component': 'ct_1_2', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_2', '_port': '4'}",
-source_port="{'_component': 'ct_1_1', '_port': '2'}"];
+sink_port="{'_component': 'ct_1_2', '_port': '1'}",
+source_port="{'_component': 'ct_1_1', '_port': '3'}"];
 ct_1_1 -> ct_2_1 [key=0,
 connection_id=channel_vertical_1_1,
 connection_ref="{'name': 'channel_vertical_1_1', 'ID': 'channel_vertical_1_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_1_1', '_port': '3'}, 'sinks': [{'_component': 'ct_2_1', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_1_1', '_port': '4'}, 'sinks': [{'_component': 'ct_2_1', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_1', '_port': '1'}",
-source_port="{'_component': 'ct_1_1', '_port': '3'}"];
+sink_port="{'_component': 'ct_2_1', '_port': '2'}",
+source_port="{'_component': 'ct_1_1', '_port': '4'}"];
 ct_1_2 -> ct_1_3 [key=0,
 connection_id=channel_horizontal_1_2,
 connection_ref="{'name': 'channel_horizontal_1_2', 'ID': 'channel_horizontal_1_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_1_2', '_port': '2'}, 'sinks': [{'_component': 'ct_1_3', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_1_2', '_port': '3'}, 'sinks': [{'_component': 'ct_1_3', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_3', '_port': '4'}",
-source_port="{'_component': 'ct_1_2', '_port': '2'}"];
+sink_port="{'_component': 'ct_1_3', '_port': '1'}",
+source_port="{'_component': 'ct_1_2', '_port': '3'}"];
 ct_1_2 -> ct_2_2 [key=0,
 connection_id=channel_vertical_1_2,
 connection_ref="{'name': 'channel_vertical_1_2', 'ID': 'channel_vertical_1_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_1_2', '_port': '3'}, 'sinks': [{'_component': 'ct_2_2', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_1_2', '_port': '4'}, 'sinks': [{'_component': 'ct_2_2', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_2', '_port': '1'}",
-source_port="{'_component': 'ct_1_2', '_port': '3'}"];
+sink_port="{'_component': 'ct_2_2', '_port': '2'}",
+source_port="{'_component': 'ct_1_2', '_port': '4'}"];
 ct_1_3 -> ct_1_4 [key=0,
 connection_id=channel_horizontal_1_3,
 connection_ref="{'name': 'channel_horizontal_1_3', 'ID': 'channel_horizontal_1_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_1_3', '_port': '2'}, 'sinks': [{'_component': 'ct_1_4', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_1_3', '_port': '3'}, 'sinks': [{'_component': 'ct_1_4', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_1_4', '_port': '4'}",
-source_port="{'_component': 'ct_1_3', '_port': '2'}"];
+sink_port="{'_component': 'ct_1_4', '_port': '1'}",
+source_port="{'_component': 'ct_1_3', '_port': '3'}"];
 ct_1_3 -> ct_2_3 [key=0,
 connection_id=channel_vertical_1_3,
 connection_ref="{'name': 'channel_vertical_1_3', 'ID': 'channel_vertical_1_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_1_3', '_port': '3'}, 'sinks': [{'_component': 'ct_2_3', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_1_3', '_port': '4'}, 'sinks': [{'_component': 'ct_2_3', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_3', '_port': '1'}",
-source_port="{'_component': 'ct_1_3', '_port': '3'}"];
+sink_port="{'_component': 'ct_2_3', '_port': '2'}",
+source_port="{'_component': 'ct_1_3', '_port': '4'}"];
 ct_1_4 -> ct_2_4 [key=0,
 connection_id=channel_vertical_1_4,
 connection_ref="{'name': 'channel_vertical_1_4', 'ID': 'channel_vertical_1_4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_1_4', '_port': '3'}, 'sinks': [{'_component': 'ct_2_4', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_1_4', '_port': '4'}, 'sinks': [{'_component': 'ct_2_4', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_4', '_port': '1'}",
-source_port="{'_component': 'ct_1_4', '_port': '3'}"];
+sink_port="{'_component': 'ct_2_4', '_port': '2'}",
+source_port="{'_component': 'ct_1_4', '_port': '4'}"];
 ct_2_1 -> ct_2_2 [key=0,
 connection_id=channel_horizontal_2_1,
 connection_ref="{'name': 'channel_horizontal_2_1', 'ID': 'channel_horizontal_2_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_2_1', '_port': '2'}, 'sinks': [{'_component': 'ct_2_2', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_2_1', '_port': '3'}, 'sinks': [{'_component': 'ct_2_2', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_2', '_port': '4'}",
-source_port="{'_component': 'ct_2_1', '_port': '2'}"];
+sink_port="{'_component': 'ct_2_2', '_port': '1'}",
+source_port="{'_component': 'ct_2_1', '_port': '3'}"];
 ct_2_1 -> ct_3_1 [key=0,
 connection_id=channel_vertical_2_1,
 connection_ref="{'name': 'channel_vertical_2_1', 'ID': 'channel_vertical_2_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_2_1', '_port': '3'}, 'sinks': [{'_component': 'ct_3_1', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_2_1', '_port': '4'}, 'sinks': [{'_component': 'ct_3_1', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_1', '_port': '1'}",
-source_port="{'_component': 'ct_2_1', '_port': '3'}"];
+sink_port="{'_component': 'ct_3_1', '_port': '2'}",
+source_port="{'_component': 'ct_2_1', '_port': '4'}"];
 ct_2_2 -> ct_2_3 [key=0,
 connection_id=channel_horizontal_2_2,
 connection_ref="{'name': 'channel_horizontal_2_2', 'ID': 'channel_horizontal_2_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_2_2', '_port': '2'}, 'sinks': [{'_component': 'ct_2_3', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_2_2', '_port': '3'}, 'sinks': [{'_component': 'ct_2_3', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_3', '_port': '4'}",
-source_port="{'_component': 'ct_2_2', '_port': '2'}"];
+sink_port="{'_component': 'ct_2_3', '_port': '1'}",
+source_port="{'_component': 'ct_2_2', '_port': '3'}"];
 ct_2_2 -> ct_3_2 [key=0,
 connection_id=channel_vertical_2_2,
 connection_ref="{'name': 'channel_vertical_2_2', 'ID': 'channel_vertical_2_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_2_2', '_port': '3'}, 'sinks': [{'_component': 'ct_3_2', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_2_2', '_port': '4'}, 'sinks': [{'_component': 'ct_3_2', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_2', '_port': '1'}",
-source_port="{'_component': 'ct_2_2', '_port': '3'}"];
+sink_port="{'_component': 'ct_3_2', '_port': '2'}",
+source_port="{'_component': 'ct_2_2', '_port': '4'}"];
 ct_2_3 -> ct_2_4 [key=0,
 connection_id=channel_horizontal_2_3,
 connection_ref="{'name': 'channel_horizontal_2_3', 'ID': 'channel_horizontal_2_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_2_3', '_port': '2'}, 'sinks': [{'_component': 'ct_2_4', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_2_3', '_port': '3'}, 'sinks': [{'_component': 'ct_2_4', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_2_4', '_port': '4'}",
-source_port="{'_component': 'ct_2_3', '_port': '2'}"];
+sink_port="{'_component': 'ct_2_4', '_port': '1'}",
+source_port="{'_component': 'ct_2_3', '_port': '3'}"];
 ct_2_3 -> ct_3_3 [key=0,
 connection_id=channel_vertical_2_3,
 connection_ref="{'name': 'channel_vertical_2_3', 'ID': 'channel_vertical_2_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_2_3', '_port': '3'}, 'sinks': [{'_component': 'ct_3_3', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_2_3', '_port': '4'}, 'sinks': [{'_component': 'ct_3_3', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_3', '_port': '1'}",
-source_port="{'_component': 'ct_2_3', '_port': '3'}"];
+sink_port="{'_component': 'ct_3_3', '_port': '2'}",
+source_port="{'_component': 'ct_2_3', '_port': '4'}"];
 ct_2_4 -> ct_3_4 [key=0,
 connection_id=channel_vertical_2_4,
 connection_ref="{'name': 'channel_vertical_2_4', 'ID': 'channel_vertical_2_4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_2_4', '_port': '3'}, 'sinks': [{'_component': 'ct_3_4', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_2_4', '_port': '4'}, 'sinks': [{'_component': 'ct_3_4', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_4', '_port': '1'}",
-source_port="{'_component': 'ct_2_4', '_port': '3'}"];
+sink_port="{'_component': 'ct_3_4', '_port': '2'}",
+source_port="{'_component': 'ct_2_4', '_port': '4'}"];
 ct_3_1 -> ct_3_2 [key=0,
 connection_id=channel_horizontal_3_1,
 connection_ref="{'name': 'channel_horizontal_3_1', 'ID': 'channel_horizontal_3_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_3_1', '_port': '2'}, 'sinks': [{'_component': 'ct_3_2', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_3_1', '_port': '3'}, 'sinks': [{'_component': 'ct_3_2', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_2', '_port': '4'}",
-source_port="{'_component': 'ct_3_1', '_port': '2'}"];
+sink_port="{'_component': 'ct_3_2', '_port': '1'}",
+source_port="{'_component': 'ct_3_1', '_port': '3'}"];
 ct_3_1 -> ct_4_1 [key=0,
 connection_id=channel_vertical_3_1,
 connection_ref="{'name': 'channel_vertical_3_1', 'ID': 'channel_vertical_3_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_3_1', '_port': '3'}, 'sinks': [{'_component': 'ct_4_1', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_3_1', '_port': '4'}, 'sinks': [{'_component': 'ct_4_1', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_1', '_port': '1'}",
-source_port="{'_component': 'ct_3_1', '_port': '3'}"];
+sink_port="{'_component': 'ct_4_1', '_port': '2'}",
+source_port="{'_component': 'ct_3_1', '_port': '4'}"];
 ct_3_2 -> ct_3_3 [key=0,
 connection_id=channel_horizontal_3_2,
 connection_ref="{'name': 'channel_horizontal_3_2', 'ID': 'channel_horizontal_3_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_3_2', '_port': '2'}, 'sinks': [{'_component': 'ct_3_3', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_3_2', '_port': '3'}, 'sinks': [{'_component': 'ct_3_3', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_3', '_port': '4'}",
-source_port="{'_component': 'ct_3_2', '_port': '2'}"];
+sink_port="{'_component': 'ct_3_3', '_port': '1'}",
+source_port="{'_component': 'ct_3_2', '_port': '3'}"];
 ct_3_2 -> ct_4_2 [key=0,
 connection_id=channel_vertical_3_2,
 connection_ref="{'name': 'channel_vertical_3_2', 'ID': 'channel_vertical_3_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_3_2', '_port': '3'}, 'sinks': [{'_component': 'ct_4_2', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_3_2', '_port': '4'}, 'sinks': [{'_component': 'ct_4_2', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_2', '_port': '1'}",
-source_port="{'_component': 'ct_3_2', '_port': '3'}"];
+sink_port="{'_component': 'ct_4_2', '_port': '2'}",
+source_port="{'_component': 'ct_3_2', '_port': '4'}"];
 ct_3_3 -> ct_3_4 [key=0,
 connection_id=channel_horizontal_3_3,
 connection_ref="{'name': 'channel_horizontal_3_3', 'ID': 'channel_horizontal_3_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_3_3', '_port': '2'}, 'sinks': [{'_component': 'ct_3_4', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_3_3', '_port': '3'}, 'sinks': [{'_component': 'ct_3_4', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_3_4', '_port': '4'}",
-source_port="{'_component': 'ct_3_3', '_port': '2'}"];
+sink_port="{'_component': 'ct_3_4', '_port': '1'}",
+source_port="{'_component': 'ct_3_3', '_port': '3'}"];
 ct_3_3 -> ct_4_3 [key=0,
 connection_id=channel_vertical_3_3,
 connection_ref="{'name': 'channel_vertical_3_3', 'ID': 'channel_vertical_3_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_3_3', '_port': '3'}, 'sinks': [{'_component': 'ct_4_3', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_3_3', '_port': '4'}, 'sinks': [{'_component': 'ct_4_3', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_3', '_port': '1'}",
-source_port="{'_component': 'ct_3_3', '_port': '3'}"];
+sink_port="{'_component': 'ct_4_3', '_port': '2'}",
+source_port="{'_component': 'ct_3_3', '_port': '4'}"];
 ct_3_4 -> ct_4_4 [key=0,
 connection_id=channel_vertical_3_4,
 connection_ref="{'name': 'channel_vertical_3_4', 'ID': 'channel_vertical_3_4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_3_4', '_port': '3'}, 'sinks': [{'_component': 'ct_4_4', '_port': '1'}], 'layer': {'_id': '0', '\
+1000}}, 'source': {'_component': 'ct_3_4', '_port': '4'}, 'sinks': [{'_component': 'ct_4_4', '_port': '2'}], 'layer': {'_id': '0', '\
 name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_4', '_port': '1'}",
-source_port="{'_component': 'ct_3_4', '_port': '3'}"];
+sink_port="{'_component': 'ct_4_4', '_port': '2'}",
+source_port="{'_component': 'ct_3_4', '_port': '4'}"];
 ct_4_1 -> ct_4_2 [key=0,
 connection_id=channel_horizontal_4_1,
 connection_ref="{'name': 'channel_horizontal_4_1', 'ID': 'channel_horizontal_4_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_4_1', '_port': '2'}, 'sinks': [{'_component': 'ct_4_2', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_4_1', '_port': '3'}, 'sinks': [{'_component': 'ct_4_2', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_2', '_port': '4'}",
-source_port="{'_component': 'ct_4_1', '_port': '2'}"];
+sink_port="{'_component': 'ct_4_2', '_port': '1'}",
+source_port="{'_component': 'ct_4_1', '_port': '3'}"];
 ct_4_1 -> output_tree [key=0,
 connection_id=channel_out_1,
 connection_ref="{'name': 'channel_out_1', 'ID': 'channel_out_1', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_4_1', '_port': '3'}, 'sinks': [{'_component': 'output_tree', '_port': '2'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'ct_4_1', '_port': '4'}, 'sinks': [{'_component': 'output_tree', '_port': '5'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'output_tree', '_port': '2'}",
-source_port="{'_component': 'ct_4_1', '_port': '3'}"];
+sink_port="{'_component': 'output_tree', '_port': '5'}",
+source_port="{'_component': 'ct_4_1', '_port': '4'}"];
 ct_4_2 -> ct_4_3 [key=0,
 connection_id=channel_horizontal_4_2,
 connection_ref="{'name': 'channel_horizontal_4_2', 'ID': 'channel_horizontal_4_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_4_2', '_port': '2'}, 'sinks': [{'_component': 'ct_4_3', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_4_2', '_port': '3'}, 'sinks': [{'_component': 'ct_4_3', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_3', '_port': '4'}",
-source_port="{'_component': 'ct_4_2', '_port': '2'}"];
+sink_port="{'_component': 'ct_4_3', '_port': '1'}",
+source_port="{'_component': 'ct_4_2', '_port': '3'}"];
 ct_4_2 -> output_tree [key=0,
 connection_id=channel_out_2,
 connection_ref="{'name': 'channel_out_2', 'ID': 'channel_out_2', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_4_2', '_port': '3'}, 'sinks': [{'_component': 'output_tree', '_port': '3'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'ct_4_2', '_port': '4'}, 'sinks': [{'_component': 'output_tree', '_port': '4'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'output_tree', '_port': '3'}",
-source_port="{'_component': 'ct_4_2', '_port': '3'}"];
+sink_port="{'_component': 'output_tree', '_port': '4'}",
+source_port="{'_component': 'ct_4_2', '_port': '4'}"];
 ct_4_3 -> ct_4_4 [key=0,
 connection_id=channel_horizontal_4_3,
 connection_ref="{'name': 'channel_horizontal_4_3', 'ID': 'channel_horizontal_4_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, '\
-connectionSpacing': 1000}}, 'source': {'_component': 'ct_4_3', '_port': '2'}, 'sinks': [{'_component': 'ct_4_4', '_port': '4'}], '\
+connectionSpacing': 1000}}, 'source': {'_component': 'ct_4_3', '_port': '3'}, 'sinks': [{'_component': 'ct_4_4', '_port': '1'}], '\
 layer': {'_id': '0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'ct_4_4', '_port': '4'}",
-source_port="{'_component': 'ct_4_3', '_port': '2'}"];
+sink_port="{'_component': 'ct_4_4', '_port': '1'}",
+source_port="{'_component': 'ct_4_3', '_port': '3'}"];
 ct_4_3 -> output_tree [key=0,
 connection_id=channel_out_3,
 connection_ref="{'name': 'channel_out_3', 'ID': 'channel_out_3', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_4_3', '_port': '3'}, 'sinks': [{'_component': 'output_tree', '_port': '4'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'ct_4_3', '_port': '4'}, 'sinks': [{'_component': 'output_tree', '_port': '3'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'output_tree', '_port': '4'}",
-source_port="{'_component': 'ct_4_3', '_port': '3'}"];
+sink_port="{'_component': 'output_tree', '_port': '3'}",
+source_port="{'_component': 'ct_4_3', '_port': '4'}"];
 ct_4_4 -> output_tree [key=0,
 connection_id=channel_out_4,
 connection_ref="{'name': 'channel_out_4', 'ID': 'channel_out_4', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
-1000}}, 'source': {'_component': 'ct_4_4', '_port': '3'}, 'sinks': [{'_component': 'output_tree', '_port': '5'}], 'layer': {'_id': '\
+1000}}, 'source': {'_component': 'ct_4_4', '_port': '4'}, 'sinks': [{'_component': 'output_tree', '_port': '2'}], 'layer': {'_id': '\
 0', 'name': 'FLOW_0', 'type': 'FLOW', 'group': '0', 'params': {'data': {}}}, '_paths': []}",
-sink_port="{'_component': 'output_tree', '_port': '5'}",
-source_port="{'_component': 'ct_4_4', '_port': '3'}"];
+sink_port="{'_component': 'output_tree', '_port': '2'}",
+source_port="{'_component': 'ct_4_4', '_port': '4'}"];
 output_tree -> port_out [key=0,
 connection_id=channel_out,
 connection_ref="{'name': 'channel_out', 'ID': 'channel_out', 'entity': 'CHANNEL', 'params': {'data': {'channelWidth': 100, 'connectionSpacing': \
